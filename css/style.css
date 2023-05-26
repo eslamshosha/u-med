@@ -1,0 +1,252 @@
+@font-face {
+  font-family: "Tajawal";
+  src: url("../webfonts/Tajawal/Tajawal-ExtraLight.woff2") format("woff2"),
+    url("../webfonts/Tajawal/Tajawal-ExtraLight.woff") format("woff"),
+    url("../webfonts/Tajawal/Tajawal-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Tajawal";
+  src: url("../webfonts/Tajawal/Tajawal-Light.woff2") format("woff2"),
+    url("../webfonts/Tajawal/Tajawal-Light.woff") format("woff"),
+    url("../webfonts/Tajawal/Tajawal-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Tajawal";
+  src: url("../webfonts/Tajawal/Tajawal-Regular.woff2") format("woff2"),
+    url("../webfonts/Tajawal/Tajawal-Regular.woff") format("woff"),
+    url("../webfonts/Tajawal/Tajawal-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Tajawal";
+  src: url("../webfonts/Tajawal/Tajawal-Medium.woff2") format("woff2"),
+    url("../webfonts/Tajawal/Tajawal-Medium.woff") format("woff"),
+    url("../webfonts/Tajawal/Tajawal-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Tajawal";
+  src: url("../webfonts/Tajawal/Tajawal-Bold.woff2") format("woff2"),
+    url("../webfonts/Tajawal/Tajawal-Bold.woff") format("woff"),
+    url("../webfonts/Tajawal/Tajawal-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TajawalExtraBold";
+  src: url("../webfonts/Tajawal/Tajawal-ExtraBold.woff2") format("woff2"),
+    url("../webfonts/Tajawal/Tajawal-ExtraBold.woff") format("woff"),
+    url("../webfonts/Tajawal/Tajawal-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Tajawal";
+  src: url("../webfonts/Tajawal/Tajawal-Black.woff2") format("woff2"),
+    url("../webfonts/Tajawal/Tajawal-Black.woff") format("woff"),
+    url("../webfonts/Tajawal/Tajawal-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+body {
+  font-family: "Tajawal", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+.overflow {
+  overflow: hidden;
+}
+:root {
+  --main-color: #00bab3;
+  --main-hover: #004a87;
+  --sec-color: #999999;
+  --white-color: #ffffff;
+}
+img {
+  max-width: 100%;
+  /* image-rendering: -webkit-optimize-contrast; */
+}
+/*style scroll bar*/
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--main-hover);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--main-hover);
+}
+/*                          main                     */
+
+.card-cont {
+  display: flex;
+}
+.card {
+  width: 100%;
+  max-width: 500px;
+  padding: 40px 20px 10px;
+  margin: 5% auto;
+  background-color: #fff;
+  border-radius: 30px;
+  border: 4px solid var(--main-hover);
+  text-align: center;
+}
+.logo-img {
+  max-width: 100%;
+  width: 120px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.card-title {
+  font-weight: 700;
+  font-size: 32px;
+  color: var(--main-hover);
+  text-align: center;
+  margin-bottom: 25px;
+}
+.qr-container {
+  position: relative;
+  padding-top: 35px;
+  margin-bottom: 25px;
+}
+.qr-bg {
+  position: absolute;
+  top: 0;
+  margin: 0;
+  width: 380px;
+  max-width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.qr-img {
+  max-width: 100%;
+  width: 220px;
+  margin: 0 auto;
+  padding: 15px;
+  border: 4px solid var(--main-color);
+  border-radius: 25px;
+  position: relative;
+}
+.qr-img::before,
+.qr-img::after {
+  content: "";
+  display: block;
+  position: absolute;
+  background: #fff;
+}
+.qr-img::before {
+  top: -5px;
+  bottom: -5px;
+  left: 36px;
+  right: 36px;
+}
+.qr-img::after {
+  left: -5px;
+  right: -5px;
+  top: 36px;
+  bottom: 36px;
+}
+.qr-img img {
+  width: 180px;
+  position: relative;
+  z-index: 1;
+}
+.card-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 100%;
+}
+.card-img {
+  max-width: 100%;
+  width: 200px;
+  margin: 0;
+}
+.contact-dead {
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--main-color);
+  margin-bottom: 4px;
+  text-align: start;
+}
+.contact-flex {
+  display: flex;
+  align-items: flex-start;
+}
+.contact-number {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  padding-inline-end: 6px;
+  border-inline-end: 3px solid var(--main-color);
+}
+.contact-number a {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 22px;
+  color: var(--main-hover);
+  text-decoration: none !important;
+  transition: all 0.3s ease-in-out;
+}
+.contact-number a.custom-link {
+  letter-spacing: 1.5px;
+}
+.contact-number a span {
+  font-size: 30px;
+  margin: 0 2px;
+}
+.contact-number a:hover {
+  color: var(--main-color);
+}
+.contact-img {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  padding-top: 3px;
+  padding-inline-start: 3px;
+}
+.contact-img .contact-img {
+  width: 24px;
+  height: 24px;
+  max-width: 100%;
+  margin: 0;
+}
+/*                         main                    */
+
+/* @media (max-width: 767px) {
+  .card-cont {
+    padding: 20px;
+  }
+  .qr-container {
+    padding-top: 25px;
+  }
+  .qr-img {
+    width: 170px;
+  }
+} */
