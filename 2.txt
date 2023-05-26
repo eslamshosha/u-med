@@ -106,48 +106,48 @@ img {
 }
 .card {
   width: 100%;
-  max-width: 56.620833333cm;
-  padding: 56.620833333cm 3.175cm 1.0583333333cm;
-  margin: 4.445cm auto;
+  max-width: 2140px;
+  padding: 85px 120px 40px;
+  margin: 5% auto;
   background-color: #fff;
-  border-radius: 3.175cm;
-  border: 0.47625cm solid var(--main-hover);
+  border-radius: 120px;
+  border: 18px solid var(--main-hover);
   text-align: center;
 }
 .logo-img {
   max-width: 100%;
-  width: 18.203333333cm;
+  width: 688px;
   margin: 0 auto;
-  margin-bottom: 2.9104166667cm;
+  margin-bottom: 110px;
 }
 .card-title {
   font-weight: 700;
-  font-size: 4.1010416667cm;
+  font-size: 155px;
   color: var(--main-hover);
   text-align: center;
-  margin-bottom: 1.4552083333cm;
+  margin-bottom: 55px;
 }
 .qr-container {
   position: relative;
-  padding-top: 5.0270833333cm;
-  margin-bottom: 2.778125cm;
+  padding-top: 190px;
+  margin-bottom: 105px;
 }
 .qr-bg {
   position: absolute;
   top: 0;
   margin: 0;
-  width: 47.3075cm;
+  width: 1788px;
   max-width: 100%;
   left: 50%;
   transform: translateX(-50%);
 }
 .qr-img {
   max-width: 100%;
-  width: 28.310416667cm;
+  width: 1070px;
   margin: 0 auto;
-  padding: 2.2489583333cm;
-  border: 0.6614583333cm solid var(--main-color);
-  border-radius: 3.4395833333cm;
+  padding: 85px;
+  border: 25px solid var(--main-color);
+  border-radius: 130px;
   position: relative;
 }
 .qr-img::before,
@@ -158,19 +158,19 @@ img {
   background: #fff;
 }
 .qr-img::before {
-  top: -1.3229166667cm;
-  bottom: -1.3229166667cm;
-  left: 5.0270833333cm;
-  right: 5.0270833333cm;
+  top: -50px;
+  bottom: -50px;
+  left: 190px;
+  right: 190px;
 }
 .qr-img::after {
-  left: -1.3229166667cm;
-  right: -1.3229166667cm;
-  top: 5.0270833333cm;
-  bottom: 5.0270833333cm;
+  left: -50px;
+  right: -50px;
+  top: 190px;
+  bottom: 190px;
 }
 .qr-img img {
-  width: 23.547916667cm;
+  width: 890px;
   position: relative;
   z-index: 1;
 }
@@ -183,14 +183,14 @@ img {
 }
 .card-img {
   max-width: 100%;
-  width: 25.135416667cm;
+  width: 950px;
   margin: 0;
 }
 .contact-dead {
   font-weight: 700;
-  font-size: 1.6933333333cm;
+  font-size: 64px;
   color: var(--main-color);
-  margin-bottom: 0.79375cm;
+  margin-bottom: 30px;
   text-align: start;
 }
 .contact-flex {
@@ -200,23 +200,23 @@ img {
 .contact-number {
   display: flex;
   flex-direction: column;
-  gap: 0.0264583333cm;
-  padding-inline-end: 0.79375cm;
+  gap: 1px;
+  padding-inline-end: 30px;
   border-inline-end: 8px solid var(--main-color);
 }
 .contact-number a {
   font-weight: 700;
-  font-size: 2.7516666667;
-  line-height: 2.7516666667;
+  font-size: 104px;
+  line-height: 104px;
   color: var(--main-hover);
   text-decoration: none !important;
   transition: all 0.3s ease-in-out;
 }
 .contact-number a span {
-  margin: 0 0.396875cm;
+  margin: 0 15px;
 }
 .contact-number a .strong-letter {
-  font-size: 3.4395833333cm;
+  font-size: 130px;
 }
 .contact-number a:hover {
   color: var(--main-color);
@@ -225,9 +225,9 @@ img {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 1.984375cm;
-  padding-top: 0.3175cm;
-  padding-inline-start: 0.4497916667cm;
+  gap: 75px;
+  padding-top: 12px;
+  padding-inline-start: 17px;
 }
 .contact-img {
   width: 111px;
