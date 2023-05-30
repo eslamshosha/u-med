@@ -1,67 +1,13 @@
 @font-face {
-  font-family: "Tajawal";
-  src: url("../webfonts/Tajawal/Tajawal-ExtraLight.woff2") format("woff2"),
-    url("../webfonts/Tajawal/Tajawal-ExtraLight.woff") format("woff"),
-    url("../webfonts/Tajawal/Tajawal-ExtraLight.ttf") format("truetype");
-  font-weight: 200;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Tajawal";
-  src: url("../webfonts/Tajawal/Tajawal-Light.woff2") format("woff2"),
-    url("../webfonts/Tajawal/Tajawal-Light.woff") format("woff"),
-    url("../webfonts/Tajawal/Tajawal-Light.ttf") format("truetype");
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Tajawal";
-  src: url("../webfonts/Tajawal/Tajawal-Regular.woff2") format("woff2"),
-    url("../webfonts/Tajawal/Tajawal-Regular.woff") format("woff"),
-    url("../webfonts/Tajawal/Tajawal-Regular.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Tajawal";
-  src: url("../webfonts/Tajawal/Tajawal-Medium.woff2") format("woff2"),
-    url("../webfonts/Tajawal/Tajawal-Medium.woff") format("woff"),
-    url("../webfonts/Tajawal/Tajawal-Medium.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Tajawal";
-  src: url("../webfonts/Tajawal/Tajawal-Bold.woff2") format("woff2"),
-    url("../webfonts/Tajawal/Tajawal-Bold.woff") format("woff"),
-    url("../webfonts/Tajawal/Tajawal-Bold.ttf") format("truetype");
+  font-family: "alexandria";
+  src: url("../webfonts/Alexandria-Bold.woff2") format("woff2"),
+    url("../webfonts/Alexandria-Bold.woff") format("woff"),
+    url("../webfonts//Alexandria-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
 }
-
-@font-face {
-  font-family: "TajawalExtraBold";
-  src: url("../webfonts/Tajawal/Tajawal-ExtraBold.woff2") format("woff2"),
-    url("../webfonts/Tajawal/Tajawal-ExtraBold.woff") format("woff"),
-    url("../webfonts/Tajawal/Tajawal-ExtraBold.ttf") format("truetype");
-  font-weight: 800;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Tajawal";
-  src: url("../webfonts/Tajawal/Tajawal-Black.woff2") format("woff2"),
-    url("../webfonts/Tajawal/Tajawal-Black.woff") format("woff"),
-    url("../webfonts/Tajawal/Tajawal-Black.ttf") format("truetype");
-  font-weight: 900;
-  font-style: normal;
-}
 body {
-  font-family: "Tajawal", sans-serif;
+  font-family: "alexandria", sans-serif;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -117,13 +63,13 @@ img {
 }
 .logo-img {
   max-width: 100%;
-  width: 240px;
+  width: 280px;
   margin: 0 auto;
   margin-bottom: 40px;
 }
 .card-title {
   font-weight: 700;
-  font-size: 64px;
+  font-size: 62px;
   color: var(--main-hover);
   text-align: center;
   margin-bottom: 50px;
@@ -189,7 +135,7 @@ img {
 }
 .contact-dead {
   font-weight: 700;
-  font-size: 28px;
+  font-size: 27px;
   color: var(--main-color);
   margin-bottom: 8px;
   text-align: start;
@@ -206,18 +152,24 @@ img {
   border-inline-end: 6px solid var(--main-color);
 }
 .contact-number a {
+  letter-spacing: 2px;
+  text-align: end;
   font-weight: 700;
   font-size: 44px;
   line-height: 44px;
+  font-family: impact;
   color: var(--main-hover);
   text-decoration: none !important;
   transition: all 0.3s ease-in-out;
 }
 .contact-number a span {
-  margin: 0 5px;
+  margin-inline-start: 12px;
+}
+.contact-number a span:last-of-type{
+  margin: 0;
 }
 .contact-number a .strong-letter {
-  font-size: 60px;
+  font-size: 56px;
 }
 .contact-img-cont {
   display: flex;
@@ -234,15 +186,3 @@ img {
   margin: 0;
 }
 /*                         main                    */
-
-/* @media (max-width: 767px) {
-  .card-cont {
-    padding: 20px;
-  }
-  .qr-container {
-    padding-top: 25px;
-  }
-  .qr-img {
-    width: 170px;
-  }
-} */
